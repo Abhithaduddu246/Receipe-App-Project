@@ -1,0 +1,53 @@
+.collections {
+    padding: 40px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.collections h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.collections p {
+    font-size: 1.125rem;
+    margin-bottom: 30px;
+}
+
+.collection-item {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.collection-image, .collection-description {
+    flex: 1;
+}
+
+.collection-image {
+    flex: 0 0 50%; /* 40% of the width */
+    max-width: 50%; /* Prevents the image from growing beyond 40% */
+}
+
+.collection-description {
+    flex: 0 0 50%; /* 40% of the width */
+    max-width: 50%; /* Prevents the description from growing beyond 40% */
+    padding: 0 20px; /* Add some padding if needed */
+    text-align: left;
+    text-align: justify;
+}
+
+.collection-image img {
+    width: 100%; /* Make image responsive */
+    border-radius: 8px;
+}
+
+.collection-description h3 {
+    font-size: 1.5rem;
+    margin-top: 15px;
+    font-family: cursive;
+}
+
+.collection-description p {
+    font-size: 1rem;
+}

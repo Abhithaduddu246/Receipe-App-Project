@@ -1,0 +1,43 @@
+.square-card-highlight{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    font-family: cursive;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 0px 4px 0px blanchedalmond;
+    font-size: 20px;
+
+
+
+}
+.square-card-nothighlight{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    color: white;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    font-family: cursive;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 0px 4px 0px rosybrown;
+    font-size: 20px;
+    
+}
+.squares{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+
+}
+
+.square-card-highlight:hover{
+    background-color: blanchedalmond;
+}

@@ -1,0 +1,87 @@
+/* receipe.css */
+
+/* Centering loader */
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container for the entire list of recipes */
+  .receipe-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-direction: row;
+  }
+  
+  /* Individual card styling */
+  .receipe-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Recipe name styling */
+  .receipe-name {
+    color: #FF8225;
+    font-size: 1.5em;
+    margin: 16px 0;
+    font-family: cursive, sans-serif;
+  }
+  
+  /* Image styling */
+  .receipe-image {
+    width: 100%;
+    height: 300px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* See More button styling */
+  .see-more-button {
+    background-color: #AF47D2;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 4px;
+  }
+  
+  .see-more-button:hover {
+    background-color: #9242b7;
+  }
+  
+  /* Title styling */
+  .title {
+    font-family: cursive, sans-serif;
+    color: #AF47D2;
+    margin-top: 20px;
+  }
+  
+  /* Fetch button styling */
+  .fetch-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 4px;
+  }
+  
+  .fetch-button:hover {
+    background-color: #218838;
+  }
+  
